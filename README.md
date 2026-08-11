@@ -154,4 +154,10 @@ A versão atual pode ser acessada em:
 
 ## 📄 Licença
 
-Este projeto está disponibilizado sob a licença presente no arquivo [LICENSE](LICENSE).
+## 📄 Licença
+
+O código-fonte deste projeto está disponível sob a licença MIT.
+
+Os dados pessoais, textos biográficos, currículo e demais conteúdos relacionados à identidade de Miguel Ferreira Sena não são abrangidos pela permissão de reutilização do código.
+
+Consulte o arquivo [LICENSE](LICENSE) para mais informações.
