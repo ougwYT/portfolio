@@ -1,0 +1,9 @@
+export { createNavbar } from "./Navbar.js";
+export { createHero } from "./Hero.js";
+export { createAbout } from "./About.js";
+export { createSkills } from "./Skills.js";
+export { createProjects } from "./Projects.js";
+export { createExperience } from "./Experience.js";
+export { createEducation } from "./Education.js";
+export { createContact } from "./Contact.js";
+export { createFooter } from "./Footer.js";

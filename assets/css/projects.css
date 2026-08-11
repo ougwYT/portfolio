@@ -1,0 +1,76 @@
+/* ==================================================
+   PROJECTS
+================================================== */
+
+.projects {
+    background-color: var(--color-background);
+}
+
+
+/* ==================================================
+   PROJECT GROUP
+================================================== */
+
+.projects-group {
+    margin-top: var(--space-10);
+}
+
+.projects-group:first-of-type {
+    margin-top: 0;
+}
+
+.projects-group + .projects-group {
+    margin-top: var(--space-16);
+}
+
+.projects-group-title {
+    margin-bottom: var(--space-6);
+
+    font-size: var(--font-size-xl);
+}
+
+
+/* ==================================================
+   PROJECT GRID
+================================================== */
+
+.projects-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: var(--space-6);
+
+    align-items: start;
+}
+
+
+/* ==================================================
+   FEATURED PROJECTS
+================================================== */
+
+.projects-grid--featured {
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+}
+
+.projects-grid--featured .project-card {
+    border-color: color-mix(
+        in srgb,
+        var(--color-primary) 35%,
+        var(--color-border)
+    );
+
+    box-shadow: var(--shadow-md);
+}
+
+
+/* ==================================================
+   OTHER PROJECTS
+================================================== */
+
+.projects-grid--other {
+    grid-template-columns:
+        repeat(auto-fit, minmax(260px, 1fr));
+}

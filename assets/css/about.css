@@ -1,0 +1,66 @@
+.about {
+    background-color: var(--color-surface-alt);
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 1fr);
+
+    align-items: center;
+
+    gap: var(--space-16);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.about-content {
+    max-width: 40rem;
+}
+
+.about-content .section-header {
+    margin-bottom: var(--space-6);
+}
+
+.about-description {
+    color: var(--color-text-muted);
+
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+}
+
+
+/* =========================
+   INFO CARDS
+========================= */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: var(--space-4);
+}
+
+.about-grid .card {
+    min-height: 9rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: var(--space-4);
+}
+
+.about-grid h3 {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+}
+
+.about-grid p {
+    color: var(--color-primary);
+
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+}
